@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Collector</title>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Added a link to our external stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <h1> Crystal Collector</h1>
+    <h2> Instructions:</h2>
+    <p> You will be given a random number at the start of the game. <br>There are four crystals below. By clicking on a
+        crystal below, you will add a specific amount of points to your total score.
+        <br> You win the game by matching your total score to random number, you lose the game if your total score goes
+        above the random number.
+        <br>The value of each crystal is hidden from you until you click on it.
+        <br>Each time when the game starts, the game will change the values of each crystal. </p>
+
+    <p> Random Number: <span id="random"></span></p>
+
+    <p> Losses: <span id="losses"></span></p>
+
+    <p> Wins: <span id="wins"></span></p>
+
+    <p> Your total score: <span id="totalScore"></span></p>
+
+    <p> Choose a crystal:</p>
+
+    <div class="container">
+            <div class="row">
+              <div class="col">Crystal 1: <span id="fieldOne"></span></div>
+              <div class="col">Crystal 2: <span id="fieldTwo"></span></div>
+              <div class="col">Crystal 3: <span id="fieldThree"></span></div>
+              <div class="col">Crystal 4: <span id="fieldFour"></span></div>
+            </div>
+
+<!--Insert crystals here-->
+
+    </p>
+    <script src="assets/javascript/game.js"></script>
+
+
+   
+
+</body>
+
+</html>
