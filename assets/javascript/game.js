@@ -2,10 +2,10 @@
 var wins = 0;
 var losses = 0;
 var totalScore = "";
-var crystalOne = 0;
-var crystalTwo = 0;
-var crystalThree = 0;
-var crystalFour = 0;
+var crystalOne = "";
+var crystalTwo = "";
+var crystalThree = "";
+var crystalFour = "";
 
 
 //Random Number Variables
@@ -14,9 +14,6 @@ var randomCrystalOne = Math.floor((Math.random() * 11) + 1);
 var randomCrystalTwo = Math.floor((Math.random() * 11) + 1);
 var randomCrystalThree = Math.floor((Math.random() * 11) + 1);
 var randomCrystalFour = Math.floor((Math.random() * 11) + 1);
-//console.log(randomNumber)
-//document.getElementById("random").HTML;
-//document.write(randomNumber)
 
 //Random Number Generator
 $(document).ready(function () {
@@ -28,12 +25,30 @@ $(document).ready(function () {
     $("#fieldFour").html(randomCrystalFour);
 
 });
+//***Psuedo Code***
+//Hide randomCrystalX numbers
+
+//Freeze Random Number Generator until game ends
+
+//Game ends when a user's crystal clicks add up to the randomNumber or exceeds it
+
+//Add user's crystal clicks until user's crystal clicks add up to the randomNumber or exceeds it
+
+//Display clicks in span id="totalScore"
+
+//If user's click equal randomNumber then add 1 to <span id="wins" and reset game
+
+//If user's clicks exceeds randomNumber then add 1 to <span id=losses and reset game
+
+//Reset game by choosing a new randomNumber, randomCrystalOne, randomCrystalTwo, randomCrystalThree and randomCrystalFour
+
+var crystalValue = 0;
+
+function getRandomNumber() {
+
+};
 
 
-function myGame() {
 
-}
-//console.log(randomNumber.textContent)
-        //randomNumber.textContent = userGuess.join(", ")
 
-//document.write(randomNumber)
+
